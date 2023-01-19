@@ -1,0 +1,18 @@
+Name: Kazi Samin
+Went to Rawad's office hours, solidified base leaf nodes of firebase database
+Next: Learn making tables and firebase data retreival
+
+Name: Anusha Karkhanis
+Attended office hours and cleared up questions about deleting courses
+Next: begin functionality of editing courses
+Blockers: none
+
+Name: Nishu Sheth
+Today: Went to office hours and got clalification on questions
+Next: Finish implementing code for displaying courses
+Blockers: None
+
+Name: Chang Ma
+Go to office hour for questions
+Next:Testing 
+Blockers:None

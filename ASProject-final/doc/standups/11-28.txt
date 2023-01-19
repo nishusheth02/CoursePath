@@ -1,0 +1,25 @@
+Name: Kazi Samin 
+Created mock User and course classes and obtained firebase data 
+Next: Finish courses required function for timeline generation
+
+Name: Ashvini Hunagund
+Today: started implementation for displaying all courses in the system
+- found that it is crashing
+Next: fix crashing issue
+Blockers: None
+
+Name: Nishu Sheth
+Today: Finished show current courses page
+Next: work on desgin and refactoring
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: Researched how to delete information from database
+Next: Finish implementing course delete page
+Blockers: None
+
+
+Chang Ma
+testing edge cases for add course
+Next: fix the error of edge casess and test edge cases for request timeline
+Blockers: None

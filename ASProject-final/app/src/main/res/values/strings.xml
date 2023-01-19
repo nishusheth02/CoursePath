@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">CoursePath</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="coursepath">CoursePath</string>
+    <string name="slogan">Slogan</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login_as">Login as</string>
+    <string name="student">Student</string>
+    <string name="admin">Admin</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="login_type">Login Type</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="coursepath_">CoursePath</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="register_">Register</string>
+    <string name="login_">Login</string>
+    <string name="enter_age">Enter Age</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="student_registration">Student Registration</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_student_number">Enter Student Number</string>
+    <string name="coursepath__">CoursePath</string>
+    <string name="login__">Login</string>
+    <string name="password__">Password</string>
+    <string name="forgot_password__">Forgot Password?</string>
+    <string name="email_address__">Email Address</string>
+    <string name="register__">Register</string>
+    <string name="student_login__">Student Login</string>
+    <string name="logout">Logout</string>
+    <string name="courses_taken">Courses Taken</string>
+    <string name="please_select_user_type">Please select user type</string>
+    <string name="administrator">Administrator</string>
+    <string name="todo">TODO</string>
+    <string name="add_course_student">Add Course</string>
+    <string name="enter_the_course_code_student">Enter the Course Code</string>
+    <string name="add_course">Add Course</string>
+    <string name="course_name_admin">Enter the Course Name</string>
+    <string name="course_code_admin">Enter the Course Code</string>
+    <string name="course_prerequisites_admin">Enter the Course Prerequisites</string>
+    <string name="add_course_admin">Add Course</string>
+    <string name="submit_admin">Submit</string>
+    <string name="select_offering_sessions_admin">Select Offering Sessions</string>
+    <string name="fall_admin">Fall</string>
+    <string name="winter_admin">Winter</string>
+    <string name="summer_admin">Summer</string>
+    <string name="if_there_are_none_please_type_quot_none_quot_admin">If there are none, please type \"none\"</string>
+    <string name="please_enter_as_all_uppercase_and_seperate_by_quot_quot_admin">Please enter as all uppercase and seperate by \",\"</string>
+    <string name="please_enter_as_all_uppercase_admin">Please enter as all uppercase</string>
+    <string name="delete_course_edit">Delete Course</string>
+    <string name="delete_course_delete">Delete Course</string>
+    <string name="enter_the_course_code_delete">Enter the Course Code</string>
+    <string name="edit_course_edit">Edit Course</string>
+    <string name="enter_current_course_code_edit">Enter Current Course Code</string>
+    <string name="enter_the_new_name_edit">Enter the New Name</string>
+    <string name="enter_the_new_course_code_edit">Enter the New Course Code</string>
+    <string name="enter_all_the_course_prerequisites_edit">Enter all the Course Prerequisites.</string>
+    <string name="submit_edit">Submit</string>
+    <string name="fall_edit">Fall</string>
+    <string name="select_all_the_offering_sessions_edit">Select all the Offering Sessions</string>
+    <string name="winter_edit">Winter</string>
+    <string name="summer_edit">Summer</string>
+    <string name="enter_course_prerequisites_above_separated_by_quot_quot_if_no_prerequisites_exist_enter_quot_none_quot_edit">Enter course prerequisites above, separated by \",\". If no prerequisites exist, enter \"none\".</string>
+
+
+</resources>

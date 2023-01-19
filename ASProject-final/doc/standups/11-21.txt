@@ -1,0 +1,15 @@
+Name: Kazi Samin
+Designed firebase database
+Next: Finalize firebase
+Blockers: None
+
+Name: Anusha Karkhanis
+Worked on layout of edit and delete pages
+Next: Begin functionality of edit and delete pages
+Blockers: None
+
+
+Name: Chang Ma
+Worked on the code if add course
+Next: finish the addc course code
+Blockers:None

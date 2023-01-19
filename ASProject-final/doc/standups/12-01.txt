@@ -1,0 +1,31 @@
+Name: Kazi Samin
+Finished bundling course and session function
+Next: Implement RecyclerView for timeline page
+
+Name: Ashvini Hunagund
+Today: went to office hours to ask for clarification on an adpater issue (with recycler view) in android studio
+- refactored login module
+- worked on displaying generating timeline (implemented recyler view)
+Next: attend office hours for issue that occurs after refactoring and unit testing
+Blockers: None
+
+Name: Nishu Sheth
+Today: went to office hours
+- refactored login module
+- Worked on unit tests
+Next: attend office hours for issue that occurs after refactoring and unit testing
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: -went to office hours and got help with MVP refactoring
+       -refactored login module
+       -researched mockito, watched Rawad's posted video on unit testing
+       -wrote unit tests for presenter page- some of them were failing, not sure why
+Next: attend office hours to fix unit test failures as well as issues with refactoring
+Blockers: none
+
+
+Name: Chang Ma
+Today: Merged branches
+Next: go through the merged package and check bugs
+Blockers: None

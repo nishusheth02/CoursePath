@@ -1,0 +1,104 @@
+{
+  "project_info": {
+    "project_number": "1001204941894",
+
+    "firebase_url": "https://authentication-7fb6a-default-rtdb.firebaseio.com",
+
+    "project_id": "authentication-7fb6a",
+    "storage_bucket": "authentication-7fb6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+
+        "mobilesdk_app_id": "1:1001204941894:android:10832dd551bdb7c9227647",
+        "android_client_info": {
+          "package_name": "com.example.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2Ul2eDeanWby75mx3riNgHoHXnXbwfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+
+        "mobilesdk_app_id": "1:1001204941894:android:bb2cac6007fc30e9227647",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2Ul2eDeanWby75mx3riNgHoHXnXbwfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+
+
+        "mobilesdk_app_id": "1:1001204941894:android:4f70a5ba3395aa50227647",
+        "android_client_info": {
+          "package_name": "com.example.schedulab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAz2Ul2eDeanWby75mx3riNgHoHXnXbwfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001204941894-knhmsudon5r5ovn5utsjdiukbeuc6gdk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

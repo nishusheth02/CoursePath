@@ -1,0 +1,101 @@
+Index: app/src/main/res/layout/activity_admin_add.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n    xmlns:tools=\"http://schemas.android.com/tools\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    tools:context=\".AdminAdd\">\n\n\n    <EditText\n        android:id=\"@+id/course_name\"\n        android:layout_width=\"359dp\"\n        android:layout_height=\"48dp\"\n        android:layout_marginTop=\"36dp\"\n        android:hint=\"Course Name\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/page_title\" />\n\n    <EditText\n        android:id=\"@+id/course_code\"\n        android:layout_width=\"359dp\"\n        android:layout_height=\"48dp\"\n        android:layout_marginTop=\"48dp\"\n        android:hint=\"Course Code\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/course_name\" />\n\n    <EditText\n        android:id=\"@+id/course_prereq\"\n        android:layout_width=\"359dp\"\n        android:layout_height=\"48dp\"\n        android:layout_marginTop=\"48dp\"\n        android:hint=\"Course Prerequisites\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/course_code\" />\n\n    <TextView\n        android:id=\"@+id/page_title\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginTop=\"44dp\"\n        android:text=\"Add Course\"\n        android:textSize=\"24sp\"\n        android:textStyle=\"bold\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\" />\n\n    <Button\n        android:id=\"@+id/back\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginStart=\"24dp\"\n        android:layout_marginBottom=\"28dp\"\n        android:text=\"Back\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\" />\n\n    <Button\n        android:id=\"@+id/submit\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginEnd=\"16dp\"\n        android:layout_marginBottom=\"28dp\"\n        android:text=\"Submit\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        android:onClick=\"saveEntry\"/>\n\n    <TextView\n        android:id=\"@+id/text_session\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginTop=\"52dp\"\n        android:text=\"Select Offering Sessions\"\n        android:textSize=\"18sp\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.152\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/course_prereq\" />\n\n    <CheckBox\n        android:id=\"@+id/check_fall\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginTop=\"28dp\"\n        android:fontFamily=\"sans-serif\"\n        android:text=\"Fall\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.092\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/text_session\" />\n\n    <CheckBox\n        android:id=\"@+id/check_winter\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginTop=\"12dp\"\n        android:text=\"Winter\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.097\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/check_fall\" />\n\n    <CheckBox\n        android:id=\"@+id/check_summer\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:text=\"Summer\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.101\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/check_winter\"\n        app:layout_constraintVertical_bias=\"0.115\" />\n\n    <TextView\n        android:id=\"@+id/textView\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginTop=\"8dp\"\n        android:text=\"If there are none, please type &quot;none&quot;\"\n        android:textSize=\"12sp\"\n        android:textStyle=\"italic\"\n        app:layout_constraintBottom_toTopOf=\"@+id/text_session\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintHorizontal_bias=\"0.147\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toBottomOf=\"@+id/course_prereq\"\n        app:layout_constraintVertical_bias=\"0.0\" />\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_admin_add.xml b/app/src/main/res/layout/activity_admin_add.xml
+--- a/app/src/main/res/layout/activity_admin_add.xml	(revision c23c7704a2499163d1531cf7d7a719d3dd76f8e7)
++++ b/app/src/main/res/layout/activity_admin_add.xml	(date 1670100243471)
+@@ -41,7 +41,7 @@
+         android:id="@+id/page_title"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:layout_marginTop="44dp"
++        android:layout_marginTop="60dp"
+         android:text="Add Course"
+         android:textSize="24sp"
+         android:textStyle="bold"
+@@ -54,7 +54,7 @@
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginStart="24dp"
+-        android:layout_marginBottom="28dp"
++        android:layout_marginBottom="16dp"
+         android:text="Back"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintStart_toStartOf="parent" />
+@@ -64,17 +64,17 @@
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="16dp"
+-        android:layout_marginBottom="28dp"
++        android:layout_marginBottom="16dp"
++        android:onClick="saveEntry"
+         android:text="Submit"
+         app:layout_constraintBottom_toBottomOf="parent"
+-        app:layout_constraintEnd_toEndOf="parent"
+-        android:onClick="saveEntry"/>
++        app:layout_constraintEnd_toEndOf="parent" />
+ 
+     <TextView
+         android:id="@+id/text_session"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+-        android:layout_marginTop="52dp"
++        android:layout_marginTop="72dp"
+         android:text="Select Offering Sessions"
+         android:textSize="18sp"
+         app:layout_constraintEnd_toEndOf="parent"
+Index: app/src/main/res/layout/activity_all_courses.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\n    xmlns:tools=\"http://schemas.android.com/tools\"\n    android:layout_width=\"match_parent\"\n    android:layout_height=\"match_parent\"\n    tools:context=\".AllCourses\">\n\n    <Button\n        android:id=\"@+id/to_admin_add\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginStart=\"28dp\"\n        android:text=\"Add\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\"\n        app:layout_constraintVertical_bias=\"0.976\" />\n\n    <Button\n        android:id=\"@+id/to_admin_edit\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:text=\"Edit\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toStartOf=\"@+id/to_admin_delete\"\n        app:layout_constraintHorizontal_bias=\"0.569\"\n        app:layout_constraintStart_toEndOf=\"@+id/to_admin_add\"\n        app:layout_constraintTop_toTopOf=\"parent\"\n        app:layout_constraintVertical_bias=\"0.976\" />\n\n    <Button\n        android:id=\"@+id/to_admin_delete\"\n        android:layout_width=\"wrap_content\"\n        android:layout_height=\"wrap_content\"\n        android:layout_marginEnd=\"40dp\"\n        android:text=\"Delete\"\n        app:layout_constraintBottom_toBottomOf=\"parent\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\"\n        app:layout_constraintVertical_bias=\"0.976\" />\n\n    <androidx.recyclerview.widget.RecyclerView\n        android:id=\"@+id/courseList\"\n        android:layout_width=\"409dp\"\n        android:layout_height=\"646dp\"\n        android:layout_marginStart=\"16dp\"\n        android:layout_marginTop=\"8dp\"\n        android:layout_marginEnd=\"8dp\"\n        android:layout_marginBottom=\"32dp\"\n        app:layout_constraintBottom_toTopOf=\"@+id/to_admin_edit\"\n        app:layout_constraintEnd_toEndOf=\"parent\"\n        app:layout_constraintStart_toStartOf=\"parent\"\n        app:layout_constraintTop_toTopOf=\"parent\" />\n\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/res/layout/activity_all_courses.xml b/app/src/main/res/layout/activity_all_courses.xml
+--- a/app/src/main/res/layout/activity_all_courses.xml	(revision c23c7704a2499163d1531cf7d7a719d3dd76f8e7)
++++ b/app/src/main/res/layout/activity_all_courses.xml	(date 1670100243482)
+@@ -42,15 +42,17 @@
+ 
+     <androidx.recyclerview.widget.RecyclerView
+         android:id="@+id/courseList"
+-        android:layout_width="409dp"
+-        android:layout_height="646dp"
++        android:layout_width="370dp"
++        android:layout_height="570dp"
+         android:layout_marginStart="16dp"
+         android:layout_marginTop="8dp"
+         android:layout_marginEnd="8dp"
+         android:layout_marginBottom="32dp"
+         app:layout_constraintBottom_toTopOf="@+id/to_admin_edit"
+         app:layout_constraintEnd_toEndOf="parent"
++        app:layout_constraintHorizontal_bias="0.235"
+         app:layout_constraintStart_toStartOf="parent"
+-        app:layout_constraintTop_toTopOf="parent" />
++        app:layout_constraintTop_toTopOf="parent"
++        app:layout_constraintVertical_bias="1.0" />
+ 
+ </androidx.constraintlayout.widget.ConstraintLayout>
+\ No newline at end of file
+Index: app/src/main/java/com/example/schedulab/AdminLogin.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.example.schedulab;\n\nimport androidx.annotation.NonNull;\nimport androidx.appcompat.app.AppCompatActivity;\n\nimport android.content.Intent;\nimport android.os.Bundle;\nimport android.util.Patterns;\nimport android.view.View;\nimport android.widget.Button;\nimport android.widget.EditText;\nimport android.widget.ProgressBar;\nimport android.widget.TextView;\nimport android.widget.Toast;\n\nimport com.google.android.gms.tasks.OnCompleteListener;\nimport com.google.android.gms.tasks.Task;\nimport com.google.firebase.auth.AuthResult;\nimport com.google.firebase.auth.FirebaseAuth;\nimport com.google.firebase.auth.FirebaseUser;\nimport com.google.firebase.database.DataSnapshot;\nimport com.google.firebase.database.DatabaseError;\nimport com.google.firebase.database.DatabaseReference;\nimport com.google.firebase.database.FirebaseDatabase;\nimport com.google.firebase.database.ValueEventListener;\n\nimport java.util.HashMap;\nimport java.util.Map;\n\npublic class AdminLogin extends AppCompatActivity implements View.OnClickListener {\n\n\n    private EditText editTextEmail, edittextPassword;\n    private Button signIn;\n    private TextView textView;\n\n    private FirebaseAuth mAuth;\n    private ProgressBar progressBar;\n\n    @Override\n    protected void onCreate(Bundle savedInstanceState) {\n        super.onCreate(savedInstanceState);\n        setContentView(R.layout.activity_admin_login);\n        signIn = (Button) findViewById(R.id.signIn_a);\n        signIn.setOnClickListener(this);\n\n        textView = (TextView) findViewById(R.id.textView);\n        textView.setOnClickListener(this);\n\n        editTextEmail = (EditText) findViewById(R.id.email_a);\n        edittextPassword = (EditText) findViewById(R.id.password_a);\n        progressBar = findViewById(R.id.progressbar_a);\n\n        mAuth = FirebaseAuth.getInstance();\n\n\n    }\n\n    @Override\n    public void onClick(View view) {\n        switch (view.getId()) {\n            case R.id.signIn_a:\n                userLogin();\n                break;\n            case R.id.textView:\n                startActivity(new Intent(this, LoginType.class));\n                break;\n        }\n    }\n\n    private void userLogin() {\n        String email = editTextEmail.getText().toString().trim();\n        String password = edittextPassword.getText().toString().trim();\n\n\n        if (email.isEmpty()) {\n            editTextEmail.setError(\"Email is required\");\n            editTextEmail.requestFocus();\n            return;\n        }\n\n        if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {\n            editTextEmail.setError(\"Please enter a valid email\");\n            editTextEmail.requestFocus();\n        }\n\n        if (password.isEmpty()) {\n            edittextPassword.setError(\"Password is required\");\n            edittextPassword.requestFocus();\n            return;\n        }\n\n        progressBar.setVisibility(View.VISIBLE);\n\n        mAuth.signInWithEmailAndPassword(email, password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {\n            @Override\n            public void onComplete(@NonNull Task<AuthResult> task) {\n                if (task.isSuccessful()) {\n                    String currentuser = FirebaseAuth.getInstance().getCurrentUser().getUid();\n                    DatabaseReference ref = FirebaseDatabase.getInstance().getReference(\"AllUsers\"); //update URL!!!\n                    ref.addValueEventListener(new ValueEventListener() {\n                        @Override\n                        public void onDataChange(DataSnapshot dataSnapshot) {\n\n                            Map<String, Object> studentMap = (HashMap<String, Object>) dataSnapshot.child(currentuser).getValue();\n                            String type = (String) studentMap.get(\"type\");\n                            if (type.equals(\"Admin\")) {\n                                startActivity(new Intent(AdminLogin.this, AdminAdd.class));\n                            }\n\n                        }\n\n                        @Override\n                        public void onCancelled(@NonNull DatabaseError error) {\n                        }\n                    });\n                }\n                else {\n                    Toast.makeText(AdminLogin.this, \"Failed to login, please check your credentials\", Toast.LENGTH_LONG).show();\n                    progressBar.setVisibility(View.GONE);\n\n\n                }\n            }\n        });\n\n    }\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/com/example/schedulab/AdminLogin.java b/app/src/main/java/com/example/schedulab/AdminLogin.java
+--- a/app/src/main/java/com/example/schedulab/AdminLogin.java	(revision c23c7704a2499163d1531cf7d7a719d3dd76f8e7)
++++ b/app/src/main/java/com/example/schedulab/AdminLogin.java	(date 1670038326995)
+@@ -105,7 +105,7 @@
+                             Map<String, Object> studentMap = (HashMap<String, Object>) dataSnapshot.child(currentuser).getValue();
+                             String type = (String) studentMap.get("type");
+                             if (type.equals("Admin")) {
+-                                startActivity(new Intent(AdminLogin.this, AdminAdd.class));
++                                startActivity(new Intent(AdminLogin.this, AdminDefault.class));
+                             }
+ 
+                         }

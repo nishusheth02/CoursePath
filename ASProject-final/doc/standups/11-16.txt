@@ -1,0 +1,20 @@
+Name: Kazi Samin
+Distributed the UI responsibilities
+Next: Research Tables in Android and experiment for Timeline page
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: Chose my UI responsibilities
+Next: Work on UI for admin's course edit and delete pages 
+Blockers: None
+
+
+Name: Chang Ma
+Choose what part to work on
+Next: Work on the course request page and add courses page of the UI
+Blockers:None
+
+Name: Nishu Sheth
+Chose UI responsibilies
+Next: Research/watch videos for assigned responsibilities
+Blockers: None

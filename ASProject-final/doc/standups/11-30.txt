@@ -1,0 +1,33 @@
+Name: Kazi Samin
+Nothing
+Next: finish bundling course and session function for timeline generation
+
+Name: Ashvini Hunagund
+Today: went to office hours for help on issue, and was able to fix it!
+- fixed up a few design issues
+- helped team member connect to firebase 
+- assisting in debugging display courses taken
+- attemped to refactor login module
+Next: attend office hours for clarification of MVP refactoring
+Blockers: None
+
+Name: Nishu Sheth
+Today: went to office hours
+  -helped Kazi write the code to retrieve data from Firebase
+  -Started to refactor login
+Next: attend office hours for additional clarification for MVP
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: -attended TA office hours and confirmed that a course being edited/deleted means it should be edited/deleted from a student's courses taken list as well.
+       -finished implementing this additional feature
+       -started researching MVP and refactoring login module 
+Next: attend next TA office hours to help with refactoring login 
+Blockers: none
+
+Name: Chang Ma
+Fiexed few bugs
+Finished all the code and commit it to github
+Researched on how to merge branches
+Next: merge all the work together
+Blockers: None

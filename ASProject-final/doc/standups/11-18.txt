@@ -1,0 +1,19 @@
+
+Name: Kazi Samin
+Nothing
+Next: Research Firebase and integrate into app
+Blockers: None
+
+
+Name: Chang Ma
+Nothing
+
+Name: Anusha Karkhanis
+Today: Nothing
+Next: Work on UI
+Blockers: None
+
+Name: Nishu Sheth
+Today: Worked on Logout
+Next: Work on navigation
+Blockers: None

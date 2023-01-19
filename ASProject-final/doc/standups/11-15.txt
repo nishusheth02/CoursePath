@@ -1,0 +1,18 @@
+Name: Kazi Samin
+Created Repo, Set up JIRA, Created Roadmap and Established time frame. 
+
+Next: Distribute UI page reponsibilities.
+
+Name: Nishu Sheth
+Had first meeting
+Next:Distribute work
+Blockers: none
+
+Name: Ashvini Hunagund
+Today: We had our first meeting an talked about what we had to do
+Next: We are going to distribute work / tasks
+
+Name: Anusha Karkhanis
+Today: We had our first meeting to discuss our plan for the week
+Next: Tomorrow we will distribute work for UI design component
+Blockers: None

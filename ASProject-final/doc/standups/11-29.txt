@@ -1,0 +1,25 @@
+Name: Kazi Samin
+Finished courses required function for timeline generation
+Next: finish bundling course and session funciton for timeline generation
+
+Name: Ashvini Hunagund
+Today: continued and finished implementation for display courses
+- not crashing! however now it's not displaying anything
+- tried list view as well but same problem occurs
+Next: attend office hours tomorrow morning for the issue
+Blockers: None
+
+Name:Nishu Sheth
+Today: Helped Ashvini with displaying courses with ListView
+Next: attend office hours for additional help
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: Finished implementing delete course
+Next: Attend office hours to get clarification on whether if an admin edits/deletes a course, it should be edited/deleted from the students list of courses taken as well
+Blockers: None
+
+Chang Ma
+finishing test edge cases
+Next: Work on how to merge braches
+Blockers: None

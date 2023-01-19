@@ -1,0 +1,18 @@
+Name: Kazi Samin
+clarified design principles 
+Next: create mock User and Course classes
+
+Name: Anusha Karkhanis
+Finished implementing the editing of course prerequisites
+Next: Begin course delete page
+Blockers: None
+
+Name: Nishu Sheth
+Today: Finished implement code to display courses taken by student
+Next: improve UI for courses taken page
+Blockers: None
+
+Name: Chang Ma
+fix the bugs
+Next: finish fix bus and do more testing
+Blockers:None

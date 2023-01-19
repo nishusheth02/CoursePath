@@ -1,0 +1,13 @@
+Name: Kazi Samin
+Had meeting, researched firebase and integration 
+Next: finalizing common realtime database 
+Blockers: None
+
+Name: Chang Ma
+Had meeting, talk about the progress
+Next: Finish the UI for course request page and request course timeline page
+
+Name: Anusha Karkhanis
+Today: Had meeting, finalized layout for course edit and delete pages
+Next: Work on integrating edit and delete pages with course database
+Blockers: None

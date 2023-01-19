@@ -1,0 +1,33 @@
+Name: Kazi Samin
+Implemented RecyclerView for timeline page, Generate timeline story completed
+Next: Implement navigation drawer for navigating between pages
+
+
+Name: Nishu Sheth
+Today: Finished unit testing
+  -Couldn't figure out double click solution in office hours
+  -did research about callback methods
+  -Finished unit tests
+ Next: Look into SharedPreferences
+ Blockers: None
+
+Name: Ashvini Hunagund
+Today: attended prof and TA office hours for refactoring and unit testing issue
+- pushed work into our personal branches
+- worked out minor issues once we've merged all work together
+Next: meeting tomorrow to finalize design choices
+Blockers: None
+
+Name: Anusha Karkhanis
+Today: -attended office hours and fixed our unit testing issue
+       -finished unit tests
+       -merged our work on Github
+Next: standup meeting to discuss navigation and ensure we have a functional app
+Blockers: none
+
+Name: Chang Ma
+Today: added a new edge case for request timeline
+went to school for standup meeting
+commit and merged the updated branches
+Next: finishing up the project and go to standupmeeting
+Blockers: None
